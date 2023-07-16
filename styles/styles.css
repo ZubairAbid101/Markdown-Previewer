@@ -1,0 +1,56 @@
+#preview {
+  min-height: 300px;
+  padding: 10px;
+  overflow-wrap: break-word;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+#preview code {
+  background-color: white;
+}
+
+#preview pre {
+  background-color: white;
+}
+
+#preview table td, #preview table th, #preview table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+}
+
+#preview img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#editor {
+  display: block;
+  margin: 0px auto;
+  width: 95%;
+  height: 250px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #87b5b5;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+#editor-heading, #preview-heading {
+  text-align: center;
+  background-color: #4aa3a3;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}/*# sourceMappingURL=styles.css.map */
